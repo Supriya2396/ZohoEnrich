@@ -1,0 +1,27 @@
+#include<stdio.h>
+void main()
+{
+  int i,j,a[20][20],m,n,k;
+  printf("Enter the values of m,n,k");
+  scanf("%d %d %d",&m,&n,&k);
+  for(i=0;i<m;i++)
+  {
+    for(j=0;j<n;j++)
+    {
+      sum=i+j;
+      {
+        if(sum==k)
+        a[i][j]=1;
+        else
+        a[i][j]=0;
+       }
+      }
+      for(i=0;i<n;i++)
+      {
+        for(j=0;j<m;j++)
+        {
+          printf("%d",a[i][j]);
+        }
+       }
+    }
+    }
