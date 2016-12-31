@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-  int i,j,a[20][20],m,n,k;
+  int i,j,a[20][20],m,n,k,sum=0;
   printf("Enter the values of m,n,k");
   scanf("%d %d %d",&m,&n,&k);
   for(i=0;i<m;i++)
