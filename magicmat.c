@@ -3,6 +3,7 @@ void main()
 {
     int n;
     int i,j,k,iold,jold;
+    printf ("Enter   ");
     i=0;
     j=n/2;
     A[i][j]=1;
@@ -29,3 +30,8 @@ void main()
         A[i][j]=k;
      }
  }
+ for  (i=0;i <n;i++)
+ {
+            for(j=0; j<n;j++)
+            {
+             printf("%d",&A[i][j]);
